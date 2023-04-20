@@ -1,0 +1,22 @@
+git create a page1.txt
+
+git bash
+
+git status
+>untracked
+
+git add page1.txt
+git status
+>new file
+
+git rm --cached page1.txt
+git status
+>untracked
+
+git add page1.txt
+git status
+>new file
+
+git commit -m "..."
+git status
+>nothing to commit...
